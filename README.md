@@ -1,82 +1,94 @@
-# BMHC Navigation Report April 2025
+# 📊 BMHC Movement is Medicine Report 
 
-## Description
+## 📝 Description 
 
+An interactive Plotly/Dash dashboard that tracks and visualizes Movement is Medicine (MIM) program activities at the Black Men's Health Clinic (BMHC). This report provides comprehensive insights into fitness program participation, physical activity metrics, health improvement outcomes, and member engagement rates. The dashboard enables stakeholders to monitor program effectiveness, track fitness milestones, identify trends in physical activity, and make data-driven decisions to enhance the Movement is Medicine wellness program.
 
+## 📂 Table of Contents 
+    
+- [Installation](#-installation)
+- [Usage](#️-usage)
+- [Methodology](#-methodology)
+- [Findings](#-findings)
+- [Conclusion](#-conclusion)
+- [License](#-license)
 
-## Table of Contents 
-	
-- [Installation](#installation)
-- [Usage](#usage)
-- [Methodology](#methodology)
-- [Results](#results)
-- [Conclusion](#conclusion)
-- [License](#license)
-
-## Usage
-
-- This is an interactive Plotly/Dash dashboard. Please feel free to hover over any interesting data points that you would like to take a deeper dive on and zoom or zoom out to get a better view.
-
-- To launch the dashboard, execute the following command in your terminal or click the following link:
-
-  - [Navigation Report April 2025](https://nav-apr-2025.onrender.com/)
-
-![Preview](./screenshots/Screenshot-163423.png)
-
-## Installation
+## 📦 Installation
 
 To run this project locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/CxLos/Nav_Apr_2025
+    git clone https://github.com/CxLos/MIM_
     ```
 2. Navigate to the project directory:
     ```bash
-    cd Nav_Apr_2025
+    cd MIM_
     ```
 3. Install the required dependencies:
     ```bash
     pip install -r requirements.txt
     ```
+
+## ▶️ Usage
+
+- This is an interactive Plotly/Dash dashboard. Please feel free to hover over any interesting data points that you would like to take a deeper dive on and zoom or zoom out to get a better view.
+
+- To launch the dashboard, execute the following command in your terminal or click the following link:
+
+  - [Movement is Medicine Activity Dashboard - OnRender](https://mim__.onrender.com/)
+
 ```bash
-python nav_apr_25.py
+python mim__.py
 ```
 
-## Methodology
+![Preview](./screenshots/)
+
+## 🧪 Methodology
 
 The data for this project was sourced directly from the Black Men's Health Clinic
 
 ## Plans for collected data:
 
-- 
--
--
--
+- Track fitness activity trends and member participation patterns
+- Analyze health improvement outcomes and physical activity impact
+- Monitor program engagement and member retention rates
+- Generate automated wellness reports for program coordinators and participants
+- Identify opportunities to expand fitness offerings and address participation barriers
 
-## Findings
+## 🔍 Findings
 
-### 
+### Program Participation
 
-* 
+* Total MIM program participants and member demographics
+* Types of fitness activities engaged in (gym sessions, group classes, outdoor activities, etc.)
+* Participation frequency and attendance trends
 
-### 
+### Physical Activity Metrics
 
-* 
+* Workout duration and intensity levels tracked
+* Exercise types and fitness goals pursued
+* Progress milestones and achievement rates
 
-### 
+### Health Outcomes
 
-* 
+* Health improvements observed (weight loss, blood pressure, stamina, etc.)
+* Chronic disease management through physical activity
+* Mental health and wellness benefits reported
 
-### 
+### Program Engagement
 
-* 
+* Member retention and long-term participation rates
+* Community building and peer support engagement
+* Barriers to participation and solutions implemented
 
-## Conclusion
+## ✅ Conclusion
+
+The Movement is Medicine Report provides valuable insights into the effectiveness of BMHC's fitness and wellness programming. The data collected enables leadership to make informed decisions about program offerings, resource allocation, and community wellness strategies. By tracking participation metrics and health outcomes, this dashboard supports continuous improvement in promoting physical activity and healthy lifestyles. Regular monitoring of these metrics helps ensure that the MIM program effectively engages Black men in fitness activities, creates a supportive wellness community, and contributes to improved overall health outcomes. This data-driven approach continues to advance BMHC's mission of addressing health disparities through preventive care and lifestyle interventions that make movement accessible, enjoyable, and sustainable.
 
 
 
-## License
+## 📄 License
 
 MIT License
 

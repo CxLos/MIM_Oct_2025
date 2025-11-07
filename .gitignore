@@ -1,3 +1,5 @@
 020525
 020525.pub
 data/
+venv/
+.python-version
