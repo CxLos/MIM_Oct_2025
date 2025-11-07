@@ -1,6 +1,7 @@
 # =================================== IMPORTS ================================= #
 
 import os
+import sys
 
 # import json
 import re
@@ -31,6 +32,13 @@ from oauth2client.service_account import ServiceAccountCredentials
 # 'data/~$bmhc_data_2024_cleaned.xlsx'
 # print('System Version:', sys.version)
 # =================================== DATA ==================================== #
+
+print("="*50)
+print("PYTHON INTERPRETER DEBUG INFO:")
+print(f"Python executable: {sys.executable}")
+print(f"Python version: {sys.version}")
+print(f"Python path: {sys.path[0]}")
+print("="*50)
 
 current_dir = os.getcwd()
 current_file = os.path.basename(__file__)
@@ -72,10 +80,10 @@ df = data.copy()
 # df = df[df['Date of Activity'].dt.month == 7]
 
 # Get the reporting month:
-int_month = 9
-mo = "Sep"
-report_month = datetime(2025, 9, 1).strftime("%B")
-report_year = datetime(2025, 9, 1).year
+int_month = 10
+mo = "Oct"
+report_month = datetime(2025, 10, 1).strftime("%B")
+report_year = datetime(2025, 10, 1).year
 
 # Strip whitespace from string entries in the whole DataFrame
 for col in df.select_dtypes(include='object').columns:
@@ -90,7 +98,7 @@ df = df[(df['Date of Activity'].dt.month == int_month) & (df['Date of Activity']
 # color_sequence = px.colors.qualitative.Plotly
 
 # -----------------------------------------------
-print(df.head)
+# print(df.head())
 # print('Total entries: ', len(df))
 # print('Column Names: \n', df.columns.tolist())
 # print('DF Shape:', df.shape)
@@ -154,7 +162,7 @@ df.rename(
 # # Clients Serviced:
 df_len = len(df)
 df_len = str(df_len)
-print(f'MIM Participants {report_month}:', df_len)
+# print(f'MIM Participants {report_month}:', df_len)
 
 # ================ Systolic ============== #
 
@@ -162,7 +170,7 @@ print(f'MIM Participants {report_month}:', df_len)
 
 # Exclude null values:
 df['Systolic'] = pd.to_numeric(df['Systolic'], errors='coerce')
-print('Systolic Unique:', df['Systolic'].unique().tolist())
+# print('Systolic Unique:', df['Systolic'].unique().tolist())
 
 # Average Systolic Blood Pressure:
 systolic_avg = df['Systolic'].mean()
@@ -173,7 +181,7 @@ systolic_avg = round(systolic_avg)
 # df['Diastolic'] = df['Diastolic'].astype(str).str.strip().replace({'': np.nan})
 
 df['Diastolic'] = pd.to_numeric(df['Diastolic'], errors='coerce')
-print('Diastolic Unique:', df['Diastolic'].unique().tolist())
+# print('Diastolic Unique:', df['Diastolic'].unique().tolist())
 
 # Diastolic Blood Pressure:
 diastolic_avg = df['Diastolic'].mean()
@@ -440,7 +448,7 @@ def categorize_age(age):
 
 # # Apply the function to create the 'Age_Group' column
 df['Age_Group'] = df['Age'].apply(categorize_age)
-print("Age Group Value Counts:", df['Age_Group'].value_counts())
+# print("Age Group Value Counts:", df['Age_Group'].value_counts())
 
 # # Group by 'Age_Group' and count the number of patient visits
 df_decades = df.groupby('Age_Group',  observed=True).size().reset_index(name='Patient_Visits')

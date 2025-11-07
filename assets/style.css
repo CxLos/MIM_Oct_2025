@@ -36,7 +36,7 @@ html, body {
   text-align: center;
   color: rgb(217, 191, 24);
   font-size: clamp(35px, 5.5vw, 55px);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Calibri, Arial, sans-serif;
 }
 
 .title2 {
@@ -45,7 +45,7 @@ html, body {
   color: rgb(0, 0, 0);
    /* color: rgb(217, 191, 24); */
   font-size: clamp(25px, 2vw, 35px);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Calibri, Arial, sans-serif;
 }
 
 .btn-box {
@@ -184,7 +184,7 @@ html, body {
   margin: 25px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
   font-size: clamp(24px, 4.5vw, 45px);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Calibri, Arial, sans-serif;
   /* font-size: 50px; */
 
   word-break: break-word;
@@ -197,7 +197,7 @@ html, body {
   margin: 0px 0px 0px 0px;
   padding: 0px 2px 0px 0px;
 
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Calibri, Arial, sans-serif;
 }
 
 .rollup-number-2 {
@@ -205,7 +205,7 @@ html, body {
   margin: 0px 0px 0px 0px;
   padding: 0px 2px 0px 0px;
 
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Calibri, Arial, sans-serif;
 }
 
 .circle-box {
@@ -244,7 +244,7 @@ html, body {
   text-align: center;
 
   margin: 0px 0px 0px 0px;
-  padding: 22px 5px 22px 5px;
+   padding: 22px 5px 22px 5px;
 
   border: 15px solid rgb(240, 208, 0);
   border-radius: 100px;
@@ -276,7 +276,7 @@ html, body {
   text-align: center;
 
   margin: 0px 0px 0px 0px;
-  padding: 22px 5px 22px 5px;
+  padding: 0px 7px 0px 7px;
 
   border: 15px solid rgb(240, 208, 0);
   border-radius: 100px;
@@ -308,7 +308,7 @@ html, body {
   align-self: center;
 
   font-size: clamp(24px, 4vw, 45px);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Calibri, Arial, sans-serif;
   color: rgb(38, 38, 38);
 
   margin: 30px 0px 0px 0px;
@@ -434,7 +434,7 @@ html, body {
 }
 
 .zip {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Calibri, Arial, sans-serif;
   font-size: 25px;
 }
 
@@ -474,7 +474,7 @@ html, body {
   font-size: clamp(24px, 4vw, 45px);
   text-align: center;
   color: rgb(38, 38, 38);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Calibri, Arial, sans-serif;
   margin: 5px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
 }
